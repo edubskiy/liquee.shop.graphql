@@ -13,7 +13,7 @@ import { default as data } from './graphql/initial-data';
 import { store, persistor } from './redux/store';
 
 import './index.css';
-import App from './App';
+import App from './App/App.container';
 import { resolvers, typeDefs } from './graphql/resolvers';
 
 const httpLink = createHttpLink({
