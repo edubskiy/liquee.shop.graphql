@@ -1,8 +1,9 @@
-  const INITIAL_DATA = {
-    cartHidden: true,
-    cartItems: [],
-    cartTotal: 0,
-    itemCount: 0,
-  };
+const INITIAL_DATA = {
+  cartHidden: true,
+  cartItems: [],
+  itemCount: 0,
+  cartTotal: 0,
+  currentUser: null,
+};
 
-  export default INITIAL_DATA;
+export default INITIAL_DATA;

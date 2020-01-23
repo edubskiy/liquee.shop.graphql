@@ -43,3 +43,5 @@ export const getCartTotal = cartItems =>
     0,
   );
 
+export const clearItemFromCart = (cartItems, item) =>
+  cartItems.filter(cartItem => cartItem.id !== item.id);
