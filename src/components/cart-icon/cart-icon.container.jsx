@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mutation, Query, graphql } from 'react-apollo';
+import { graphql } from 'react-apollo';
 import { gql } from 'apollo-boost';
 import { flowRight } from 'lodash';
 
